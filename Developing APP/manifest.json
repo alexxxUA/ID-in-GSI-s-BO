@@ -1,0 +1,22 @@
+{
+	"name": "Filling ID",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Generating component's ID from its name.",
+	"icons": {"128": "icon.png"},
+	"browser_action": {
+		"default_icon": "img/browseraction.png",
+		"default_title": "Generate ID",
+		"default_popup": "index.html"
+	},
+	"background" : {
+		"persistent": true,
+    	"scripts": ["js/idListener.js"]
+	},
+	"permissions": [
+    	"storage",
+    	"tabs",
+    	"http://*/",
+    	"https://*/"
+  	]
+}

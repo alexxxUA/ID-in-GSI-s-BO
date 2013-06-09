@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ID's settings</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="js/settingUp.js"></script>
+  </head>
+  <body>
+  	<h2>ID's settings</h2>
+  	<div class="settings">
+	  	<div class="ws-field">
+	  		<label for="prefix">Prefix:</label>
+	  		<input id="prefix" type="text" name="prefix" value="" placeholder="Prefix">
+	  	</div>
+	  	<div class="ws-field">
+	  		<label for="splitSymbol">Split symbol:</label>
+	  		<input id="splitSymbol" type="text" name="splitSymbol" value="" placeholder="Split symbol">
+	  	</div>
+	  	<div class="ws-field">
+	  		<label for="regexpUrl" class="checkURL" title="Can be a RegExp string(checking current TAB)">Matche URL:</label>
+	  		<input id="regexpUrl" type="text" name="regexpUrl" value="" placeholder="Matche URL">
+	  	</div>
+	  	<fieldset class="working-type-group">
+	  		<legend>Generating type</legend>
+		  	<div class="working-type">
+		  		<input id="automatic" type="radio" name="workType" value="automatic">
+		  		<label for="automatic">Auto generating.</label>
+		  	</div>
+			<div class="working-type">
+				<input id="viaButton" type="radio" name="workType" value="viaButton">
+				<label for="viaButton">Via button (and "Ctrl + Enter").</label>
+			</div>
+	  	</fieldset>
+	</div>
+	<div class="action-button">
+		<input class="save" type="button" name="save" value="SAVE">
+		<input class="close" type="button" name="close" value="CLOSE">
+	</div>  		
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body{
+	min-width: 220px;
+	padding: 15px;
+	background: -webkit-linear-gradient(top, #A5E9FF 0%,#2D9BBE 40%,#006F92 100%);
+	font: 12px arial;
+	color: #FFF;
+}
+h2{
+	text-align: center;
+	padding-bottom: 15px;
+	font: bold 14px arial;
+}
+.ws-field,
+.working-type{
+	padding: 0 0 10px;
+}
+.working-type label,
+.working-type input{
+	vertical-align: middle;
+}
+.ws-field label{
+	width: 80px;
+	display: inline-block;
+	text-align: right;
+}
+.working-type-group{
+	margin: 10px 0;
+	border: 1px solid #FFF;
+	border-radius: 9px;
+	padding: 10px 10px 0 10px;
+}
+.action-button{
+	text-align: center;
+}
+.action-button input{
+	padding: 2px 5px;
+	border-radius: 5px;
+	margin: 0 5px;
+
+	color: #FFF;
+	cursor: pointer;
+	border: 2px solid;
+}
+input.save{
+	background: #26C926;
+	border-color: #26C926;
+}
+input.close{
+	background: #FF4949;
+	border-color: #FF4949;
+}
+.action-button input:hover{
+	box-shadow: 0 0 2px 0 #FFF;
+}
+.action-button input:active{
+	border-width: 0;
+	margin: 2px 7px;
+}
+.checkURL.error{
+	color: #F00;
+}
+.checkURL.success{
+	color: #03FF03;
+}
